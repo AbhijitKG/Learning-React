@@ -1,0 +1,47 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "sourceMap": true,
+    "jsx": "react-native",
+    
+    "outDir": "./artifacts",
+    "rootDirs": [
+      "./",
+      "./src"
+    ],
+    "removeComments": false,
+    "preserveConstEnums": true,
+    
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+
+    "strict": true,
+    "strictNullChecks": true,
+    
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "types": [
+    "react",
+    "react-native",
+    "jest"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "android",
+    "ios",
+    "artifacts",
+    "node_modules",
+    "index.android.js",
+    "index.ios.js"
+  ]
+}
